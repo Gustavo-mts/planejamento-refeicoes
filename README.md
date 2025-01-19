@@ -6,8 +6,8 @@
 
 ```bash
 # Substitua pelo URL real do repositório
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
+git clone https://github.com/Gustavo-mts/planejamento-refeicoes.git
+cd planejamento-refeicoes
 ```
 
 ### 2. Crie um Ambiente Virtual
