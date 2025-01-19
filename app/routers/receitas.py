@@ -4,6 +4,11 @@ from sqlalchemy.exc import SQLAlchemyError
 from typing import List
 from app.database import get_session
 from app.models.receita import Receita
+from app.models.receita_response import ReceitaResponse
+from fastapi import Query
+from sqlalchemy.orm import joinedload
+from app.models.ingrediente import Ingrediente
+
 
 router = APIRouter(prefix="/receitas", tags=["Receitas"])
 

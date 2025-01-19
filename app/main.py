@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.database import init_db
-from app.routers import ingrediente, receitas, planejamento
+from app.routers import ingrediente, receitas, planejamento, consultas
 
 app = FastAPI(title="Gerenciador de Receitas")
 
@@ -11,3 +11,4 @@ def on_startup():
 app.include_router(ingrediente.router)
 app.include_router(receitas.router)
 app.include_router(planejamento.router)
+app.include_router(consultas.router)
