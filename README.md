@@ -33,6 +33,12 @@ Ative o ambiente virtual:
 pip install -r requirements.txt
 ```
 
+### 3.1 Instale as Dependências de Desenvolvimento
+
+```bash
+uv pip install -r requirements-dev.txt
+```
+
 ---
 
 ## Configuração do Banco de Dados
